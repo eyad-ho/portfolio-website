@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyad | Web Developer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#38bdf8;
+}
+
+.hero p{
+    max-width:600px;
+    margin-bottom:30px;
+    opacity:0.8;
+}
+
+.btn{
+    padding:12px 25px;
+    background:#38bdf8;
+    color:black;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+.services{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:40px;
+    font-size:32px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    width:250px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#0b1120;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Eyad.dev</div>
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#">Projects</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Hi, I'm <span>Eyad</span></h1>
+<p>I build clean responsive websites and automation tools using Python to help businesses save time and grow faster.</p>
+<button class="btn">Contact Me</button>
+</section>
+
+<section class="services" id="services">
+<h2>My Services</h2>
+<div class="cards">
+<div class="card">
+<h3>Web Design</h3>
+<p>Responsive websites using HTML & CSS.</p>
+</div>
+
+<div class="card">
+<h3>Python Automation</h3>
+<p>Scripts that automate repetitive tasks.</p>
+</div>
+
+<div class="card">
+<h3>Landing Pages</h3>
+<p>High-converting modern landing pages.</p>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Eyad | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
